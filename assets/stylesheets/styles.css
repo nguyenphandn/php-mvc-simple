@@ -1,0 +1,89 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #fea02f;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #007a7a;
+    color: floralwhite;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #de6600;
+}
+
+/* nav bar drop down on hover */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+/* for sub drop down menu */
+.dropdown-menu li {
+position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+/* for sub drop down menu */
+
+
+img {
+    border-radius: 10px;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.bottom-banner {
+    background-color: #de6600;
+    padding-bottom: 0px;
+}
+  

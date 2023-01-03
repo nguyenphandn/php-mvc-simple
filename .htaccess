@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# RewriteRule ^(.*).php$ $1.php [NC,L]
+# RewriteRule ^index$ index.php [NC, L]
+# RewriteRule ^index/(.*)$ /lab-7/index.php?page=$1 [NC, L]
+# RewriteRule ^([^/]+)$ /lab-7/index.php?page=$1 [NC,L,R=301]
+# RewriteRule ^index/products/(.*)$ /lab-7/index.php?page=products&id=$1 [NC,L]
+
+
+# RewriteRule ^([^/]+)/?$ /index.php?page=$1 [L,QSA]
+
+# RewriteRule ^([a-z]{2})/([^/]+)/?$ /index.php?page=$2&lang=$1 [L,QSA]
